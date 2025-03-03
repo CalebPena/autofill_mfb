@@ -1,0 +1,25 @@
+{
+	"manifest_version": 3,
+	"name": "Auto Fill MFB",
+	"version": "1.0.0",
+	"permissions": [
+		"contextMenus"
+	],
+	"icons": {
+		"16": "logo.gif"
+	},
+	"background": {
+		"service_worker": "background.js"
+	},
+	"content_scripts": [
+		{
+			"matches": [
+				"http://localhost/*",
+				"https://screener.myfriendben.org/*",
+				"https://benefits-calculator-staging.herokuapp.com/*",
+				"https://screener.bennc.org/*"
+			],
+			"js": ["index.js"]
+		}
+	]
+}
