@@ -1,7 +1,7 @@
 chrome.runtime.onInstalled.addListener(() => {
   chrome.contextMenus.create({
     id: "toggle_auto_fill_mfb",
-    title: "Toggle Auto Fill MFB",
+    title: "Auto Fill MFB",
     contexts: ["page"],
     documentUrlPatterns: [
       "http://localhost/*",
