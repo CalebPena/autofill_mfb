@@ -5,9 +5,6 @@
 	"permissions": [
 		"contextMenus"
 	],
-	"icons": {
-		"16": "logo.gif"
-	},
 	"background": {
 		"service_worker": "background.js"
 	},
