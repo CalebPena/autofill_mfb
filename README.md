@@ -1,4 +1,4 @@
-# Autofill [https://screener.myfriendben.org/](MyFriendBen)
+# Autofill [MyFriendBen](https://screener.myfriendben.org/)
 
 
 Run in the console and then refresh:
